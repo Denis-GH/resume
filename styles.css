@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.form {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #0f141e;
+    background: #f1f1f1;
+}
+
+header h1 {
+    font-style: italic;
+    color: indigo;
+}
+
+#name {
+    text-decoration: underline;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a:hover {
+    color: #000;
+    font-size: 1.15rem;
+    text-decoration: underline;
+}
+
+img {
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border: 4px double darkred;
+    box-shadow: 6px 6px 14px rgba(0, 0, 0, .25);
+}
+
+.card {
+    background-color: rgb(245, 215, 210);
+    padding: 16px;
+    border-radius: 15px;
+}
+
+.social {
+    max-height: 60.719px;
+}
+
+.bg-yellow {
+    background: #fdf5cd;
+}
+
+.bg-red {
+    background: #fddddd;
+    max-height: 293.385px;
+}
+
+@media (max-width: 475px) {
+    .bg-red {
+        max-height: 310px;
+    }
+}
+
+.bg-green {
+    background: #dcfedf;
+}
+
+h3 {
+    margin: 0 0 1em;
+}
+
+hr {
+    margin: 0.5em;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.btn {
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.btn:hover {
+    opacity: .8;
+    color: rgb(253, 110, 110);
+    font-weight: bold;
+    padding: 7px 11px;
+    border-radius: 11px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    text-align: center;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.table tr:hover {
+    background: rgb(206, 204, 204);
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+.form-row .form-group {
+    display: inline-block;
+    margin-right: 0px;
+    width: calc(50% - 12px);
+}
+
+.form-row .form-group:first-child {
+    margin-right: 20px;
+}
+
+.form-row .form-group:last-child {
+    width: 100%;
+}
+
+@media (max-width: 475px) {
+    .form-row .form-group {
+        display: block;
+        width: 100%;
+    }
+}
+
+.form-group label {
+    display: block;
+    color: rgb(57, 57, 57);
+}
+
+.form-group input,
+.form-group textarea {
+    border: none;
+    width: 100%;
+    background: transparent;
+    border-bottom: 1px solid rgb(179, 178, 178);
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    margin-bottom: 10px;
+}
+
+.form-group textarea {
+    margin-bottom: 0;
+}
+
+@media (max-width: 475px) {
+    .form-group textarea {
+        max-height: 45px;
+    }
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info-text {
+    margin-left: 25px;
+}
+
+@media (max-width: 475px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
